@@ -1,0 +1,11 @@
+html/user/accounts/*
+!html/user/accounts/.gitkeep
+
+html/user/config/*
+!html/user/config/.gitkeep
+
+html/user/data/*
+!html/user/data/.gitkeep
+
+html/user/plugins/*
+!html/user/plugins/.gitkeep

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  grav:
+    image: websitemacherei/grav
+    logging:
+      options:
+        max-size: "200k"
+    volumes:
+      - ./html/info.php:/var/www/html/info.php
+      - ./html/user:/var/www/html/user
+      - ~/.ssh:/home/app/.ssh
+    ports:
+      - "8010:8080"
